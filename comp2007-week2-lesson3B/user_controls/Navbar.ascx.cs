@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 /**
  * @author: Brighto Paul
- * @date: May 26, 2016
+ * @date: June 2, 2016
  */
 
 namespace comp2007_week2_lesson3B
@@ -33,10 +33,19 @@ namespace comp2007_week2_lesson3B
                     case "Home Page":
                         home.Attributes.Add("class", "active");
                         break;
+                    case "Students":
+                        students.Attributes.Add("class", "active");
+                        break;
+                    case "Courses":
+                        courses.Attributes.Add("class", "active");
+                        break;
+                    case "Departments":
+                        departments.Attributes.Add("class", "active");
+                        break;
                     case "Contact":
                         contact.Attributes.Add("class", "active");
                         break;
-                }
+            }
             }
         }
     }
