@@ -7,45 +7,63 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace comp2007_week2_lesson3B {
+namespace comp2007_week4_lesson4c {
     
     
-    public partial class Site {
+    public partial class StudentDetails {
         
         /// <summary>
-        /// head control.
+        /// LastNameTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder head;
+        protected global::System.Web.UI.WebControls.TextBox LastNameTextBox;
         
         /// <summary>
-        /// form1 control.
+        /// FirstNameTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.WebControls.TextBox FirstNameTextBox;
         
         /// <summary>
-        /// PrimaryNav control.
+        /// EnrollmentDateTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::comp2007_week2_lesson3B.Navbar PrimaryNav;
+        protected global::System.Web.UI.WebControls.TextBox EnrollmentDateTextBox;
         
         /// <summary>
-        /// MainContent control.
+        /// RangeValidator1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder MainContent;
+        protected global::System.Web.UI.WebControls.RangeValidator RangeValidator1;
+        
+        /// <summary>
+        /// CancelButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button CancelButton;
+        
+        /// <summary>
+        /// SaveButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button SaveButton;
     }
 }
